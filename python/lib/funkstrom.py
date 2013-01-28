@@ -8,8 +8,8 @@ RESEND  = 3
 
 class Funkstrom:
 
-    def __init__(self, ser_device, baudrate=31337):
-        self.ser = serial.Serial(port=ser_device, baud=baudrate)
+    def __init__(self, ser_device, baud=31337):
+        self.ser = serial.Serial(port=ser_device, baudrate=baud)
         self.ser.open()
 
     def send_datagram(self, datagram):
