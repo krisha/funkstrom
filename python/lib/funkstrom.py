@@ -53,11 +53,11 @@ class Funkstrom:
             raise Exception('Code is not a list or not 5 elements long')
 
     @staticmethod
-    def get_syscode(self, S1=False, S2=False, S3=False, S4=False, S5=False):
+    def get_syscode(S1=False, S2=False, S3=False, S4=False, S5=False):
         return [S1, S2, S3, S4, S5]
 
     @staticmethod
-    def get_unitcode(self, A=False, B=False, C=False, D=False, E=False):
+    def get_unitcode(A=False, B=False, C=False, D=False, E=False):
         return [A, B, C, D, E]
 
 
